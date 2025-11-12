@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  service-monitor:
+    build: .
+    container_name: service-monitor
+    ports:
+      - "5002:5001"
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/app/logs
+    restart: unless-stopped
