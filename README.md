@@ -58,7 +58,7 @@ Response:
 {
   "monitoring_running": true,
   "services": {
-    "InfluxDB GPON": {"url": "http://105.29.165.232:24004/ping", "alert_sent": false}
+    "InfluxDB GPON": {"url": "http:/:24004"alert_sent": false}
   }
 }
 ```
